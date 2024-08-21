@@ -10,7 +10,7 @@ import Relevancechart from "./Relevancechart";
 import Sectorchart from "./Sectorchart";
 import Liklehoodchart from "./Liklehoodchart";
 
-const API_URL = import.meta.env.VITE_API_URL || "";
+const API_URL = "https://blackcoffer-assignment-lpq9.onrender.com";
 Chart.register(CategoryScale);
 const Dashboard = () => {
   const [data, setData] = useState([]);
